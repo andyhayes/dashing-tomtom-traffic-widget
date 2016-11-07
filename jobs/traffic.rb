@@ -3,10 +3,10 @@ require 'net/https'
 require 'uri'
 require 'json'
 
-office_location = URI::encode('53.733741,-1.589997')
+office_location = URI::encode('34.1381168,-118.3533783')
 key = URI::encode('!!!INSERT free api key from http://developer.tomtom.com/!!!')
 locations = []
-locations << { name: "Kev", location: URI::encode('53.8059208,-1.6758144'), warn_minutes: 50, alert_minutes: 60 }
+locations << { name: "Marty", location: URI::encode('33.9935867,-117.9274765'), warn_minutes: 50, alert_minutes: 60 }
 
 SCHEDULER.every '10m', :first_in => '15s' do |job|
    routes = []
