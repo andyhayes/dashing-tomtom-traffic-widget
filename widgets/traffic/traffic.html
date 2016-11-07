@@ -1,0 +1,13 @@
+<div class="non-semantic-protector"> 
+  <h1 class="title" data-bind="title"></h1>
+</div>
+
+<ol>
+	<li data-foreach-result="results" data-bind-class="result.status">
+		<span data-bind="result.name"></span> <span class="drive-time" data-bind="result.time"></span>
+		<span class="drive-road" data-bind="result.road"></span>
+	</li>
+</ol>
+
+<p class="more-info" data-bind="moreinfo | raw"></p>
+<p class="updated-at" data-bind="updatedAtMessage"></p>

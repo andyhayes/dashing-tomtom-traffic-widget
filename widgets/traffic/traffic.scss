@@ -1,0 +1,54 @@
+.p45-colour {
+  background-color: #d71717;
+}
+.widget-traffic {
+  background-color: #595651;
+}
+.widget-traffic .warn {
+  background-color: #D4AA57;
+}
+.widget-traffic .alert {
+  background-color: #a31f1f;
+}
+.widget-traffic .title {
+  color: rgba(255, 255, 255, 0.7);
+}
+.widget-traffic .non-semantic-protector {
+  position: relative;
+  z-index: 1;
+}
+.widget-traffic ol, .widget-traffic ul {
+  margin: 0 15px;
+  text-align: left;
+}
+.widget-traffic ol {
+  list-style-position: inside;
+}
+.widget-traffic li:first-child {
+  font-weight: bold;
+}
+.widget-traffic li {
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+.widget-traffic .drive-time {
+  color: rgba(255, 255, 255, 0.7);
+}
+.widget-traffic .drive-road {
+  position: relative;
+  left: 35px;
+  font-size: 10px;
+  display: block;
+}
+.widget-traffic .more-info {
+  color: rgba(255, 255, 255, 0.7);
+}
+.widget-traffic .updated-at {
+  color: rgba(255, 255, 255, 0.7);
+}
+.purple {
+  background-color: #b91be0;
+}
+.widget.widget-traffic {
+  vertical-align: top;
+}
